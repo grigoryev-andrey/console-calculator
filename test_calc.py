@@ -19,3 +19,8 @@ def test_multiplication():
 def test_division():
     assert calc.div(75, 25) == 3
     assert calc.div(84, 18) == 4
+
+
+def test_addition_2():
+    assert calc.add(3, 2) == 5
+    assert calc.add(5, 7) == 12
